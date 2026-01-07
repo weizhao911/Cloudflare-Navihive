@@ -19,16 +19,18 @@
         {
             "binding": "DB",
             "database_name": "navigation-db",
-            "database_id": "f9ff228d-61ff-4cb8-a820-62095c1a1dbc"
+            "database_id": "322c0aac-16e6-4151-8fff-a09ac1fcad42"
         }
     ],
     "vars": {
         "AUTH_ENABLED": "true",
-        "AUTH_USERNAME": "admin",
+        "AUTH_REQUIRED_FOR_READ": "false",
+        "AUTH_USERNAME": "haoledai",
         "AUTH_PASSWORD": "$2a$12$ZSLUS9VrKsVf6yjgGUn2/ewLY9vqztqFpL99NExv6Kv3GjvyRnNEG",
         "AUTH_SECRET": "$2y$10$IMVl9NM.Smo7xbPVyi9HEOBhcLxOPKEp9RBIEoijS4YbKjeyFjJFm"
     }
 }
+
 
 
 
