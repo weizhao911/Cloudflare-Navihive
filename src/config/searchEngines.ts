@@ -14,6 +14,12 @@ export interface SearchEngine {
  * 预设的搜索引擎列表
  */
 export const SEARCH_ENGINES: SearchEngine[] = [
+   {
+    key: 'bing',
+    name: 'Bing',
+    template: 'https://www.bing.com/search?q={q}',
+    icon: 'https://www.faviconextractor.com/favicon/www.bing.com?larger=true',
+  },
   {
     key: 'google',
     name: 'Google',
@@ -27,34 +33,16 @@ export const SEARCH_ENGINES: SearchEngine[] = [
     icon: 'https://www.faviconextractor.com/favicon/www.baidu.com?larger=true',
   },
   {
-    key: 'bing',
-    name: 'Bing',
-    template: 'https://www.bing.com/search?q={q}',
-    icon: 'https://www.faviconextractor.com/favicon/www.bing.com?larger=true',
-  },
-  {
-    key: 'duckduckgo',
-    name: 'DuckDuckGo',
-    template: 'https://duckduckgo.com/?q={q}',
-    icon: 'https://www.faviconextractor.com/favicon/duckduckgo.com?larger=true',
+    key: 'metaso',
+    name: '秘塔搜索',
+    template: 'https://metaso.cn/search?q={q}',
+    icon: 'https://www.faviconextractor.com/favicon/metaso.cn?larger=true',
   },
   {
     key: 'github',
     name: 'GitHub',
     template: 'https://github.com/search?q={q}&type=repositories',
     icon: 'https://www.faviconextractor.com/favicon/github.com?larger=true',
-  },
-  {
-    key: 'bilibili',
-    name: '哔哩哔哩',
-    template: 'https://search.bilibili.com/all?keyword={q}',
-    icon: 'https://www.faviconextractor.com/favicon/www.bilibili.com?larger=true',
-  },
-  {
-    key: 'youtube',
-    name: 'YouTube',
-    template: 'https://www.youtube.com/results?search_query={q}',
-    icon: 'https://www.faviconextractor.com/favicon/www.youtube.com?larger=true',
   },
   {
     key: 'zhihu',
