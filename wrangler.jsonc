@@ -26,10 +26,11 @@
         "AUTH_ENABLED": "true",
         "AUTH_REQUIRED_FOR_READ": "false",
         "AUTH_USERNAME": "haoledai",
-        "AUTH_PASSWORD": "$2a$12$ZSLUS9VrKsVf6yjgGUn2/ewLY9vqztqFpL99NExv6Kv3GjvyRnNEG",
-        "AUTH_SECRET": "$2y$10$IMVl9NM.Smo7xbPVyi9HEOBhcLxOPKEp9RBIEoijS4YbKjeyFjJFm"
+        "AUTH_PASSWORD": "$2y$10$6Auaw4q8Wv0Mo1yXYEdLXOiCSrPWJLZ9wubHKhKfs.tWvahtq9.6G",
+        "AUTH_SECRET": "g588MMI00TgrcYj29yrHEBF4oTdIP98l"
     }
 }
+
 
 
 
