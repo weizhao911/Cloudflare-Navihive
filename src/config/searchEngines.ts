@@ -35,7 +35,7 @@ export const SEARCH_ENGINES: SearchEngine[] = [
   {
     key: 'metaso',
     name: '秘塔搜索',
-    template: 'https://metaso.cn/search?q={q}',
+    template: 'https://metaso.cn/?q={q}',
     icon: 'https://www.faviconextractor.com/favicon/metaso.cn?larger=true',
   },
   {
