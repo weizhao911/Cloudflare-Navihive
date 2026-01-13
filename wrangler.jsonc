@@ -4,7 +4,7 @@
  */
 {
     "$schema": "node_modules/wrangler/config-schema.json",
-    "name": "navihive",
+    "name": "navihive1",
     "main": "worker/index.ts",
     "compatibility_date": "2025-04-05",
     "compatibility_flags": ["nodejs_compat"],  // 必须启用 Node.js 兼容
